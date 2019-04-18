@@ -1,0 +1,17 @@
+C:\Users\zk479d\Documents\Visual Studio 2017\Projects\HelloWorldMicah\obj\Debug\HelloWorldMicah.csprojAssemblyReference.cache
+C:\Users\zk479d\Documents\Visual Studio 2017\Projects\HelloWorldMicah\obj\Debug\MainWindow.g.cs
+C:\Users\zk479d\Documents\Visual Studio 2017\Projects\HelloWorldMicah\obj\Debug\App.g.cs
+C:\Users\zk479d\Documents\Visual Studio 2017\Projects\HelloWorldMicah\obj\Debug\HelloWorldMicah_MarkupCompile.cache
+C:\Users\zk479d\Documents\Visual Studio 2017\Projects\HelloWorldMicah\obj\Debug\HelloWorldMicah_MarkupCompile.lref
+C:\Users\zk479d\Documents\Visual Studio 2017\Projects\HelloWorldMicah\bin\Debug\HelloWorldMicah.exe.config
+C:\Users\zk479d\Documents\Visual Studio 2017\Projects\HelloWorldMicah\bin\Debug\HelloWorldMicah.exe
+C:\Users\zk479d\Documents\Visual Studio 2017\Projects\HelloWorldMicah\bin\Debug\HelloWorldMicah.pdb
+C:\Users\zk479d\Documents\Visual Studio 2017\Projects\HelloWorldMicah\obj\Debug\MainWindow.baml
+C:\Users\zk479d\Documents\Visual Studio 2017\Projects\HelloWorldMicah\obj\Debug\HelloWorldMicah.g.resources
+C:\Users\zk479d\Documents\Visual Studio 2017\Projects\HelloWorldMicah\obj\Debug\HelloWorldMicah.Properties.Resources.resources
+C:\Users\zk479d\Documents\Visual Studio 2017\Projects\HelloWorldMicah\obj\Debug\HelloWorldMicah.csproj.GenerateResource.cache
+C:\Users\zk479d\Documents\Visual Studio 2017\Projects\HelloWorldMicah\obj\Debug\HelloWorldMicah.csproj.CoreCompileInputs.cache
+C:\Users\zk479d\Documents\Visual Studio 2017\Projects\HelloWorldMicah\obj\Debug\HelloWorldMicah.exe
+C:\Users\zk479d\Documents\Visual Studio 2017\Projects\HelloWorldMicah\obj\Debug\HelloWorldMicah.pdb
+C:\Users\zk479d\Documents\Visual Studio 2017\Projects\HelloWorldMicah\obj\Debug\PanelWindow.g.cs
+C:\Users\zk479d\Documents\Visual Studio 2017\Projects\HelloWorldMicah\obj\Debug\PanelWindow.baml
