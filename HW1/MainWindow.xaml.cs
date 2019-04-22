@@ -48,7 +48,6 @@ namespace HelloWorldMicah
             {
                 uxSubmit.IsEnabled = false;
             }
-
         }
     }
 }
