@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Data.Entity;
 
 namespace HelloWorldMicah
 {
@@ -32,6 +33,12 @@ namespace HelloWorldMicah
         public override void EndInit()
         {
             base.EndInit();
+
+            var sample = new Test1Entities();
+
+            sample.Users.Load();
+
+            uxList.ItemsSource = sample.Users.Local;
         }
         private void UxSubmit_Click(object sender, RoutedEventArgs e)
         {
