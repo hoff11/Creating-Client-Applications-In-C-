@@ -27,6 +27,9 @@ namespace HelloWorldMicah
         public MainWindow()
         {
             InitializeComponent();
+            var sample = new Test1Entities();
+            sample.Users.Load();
+            uxList.ItemsSource = sample.Users.Local;
             uxContainer.DataContext = user;
         }
 
@@ -34,11 +37,7 @@ namespace HelloWorldMicah
         {
             base.EndInit();
 
-            var sample = new Test1Entities();
 
-            sample.Users.Load();
-
-            uxList.ItemsSource = sample.Users.Local;
         }
         private void UxSubmit_Click(object sender, RoutedEventArgs e)
         {
