@@ -34,7 +34,6 @@ namespace HelloWorldMicah
         {
             //loose coupling
             uxGrid.DataContext = e.AddedItems[0];
-
             //Coupled
             //uxName.Text = ((User)uxComboBox.SelectedValue).UserName;
         }
