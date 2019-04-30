@@ -23,7 +23,7 @@ namespace HelloWorldMicah
         {
             InitializeComponent();
 
-            uxProgressBar.Maximum = 100; // Set the maximum
+            uxProgressBar.Maximum = 40; // Set the maximum
         }
 
         private void uxTextEditor_SelectionChanged(object sender, RoutedEventArgs e)
@@ -34,6 +34,9 @@ namespace HelloWorldMicah
             uxStatus.Text = "Line " + (row + 1) + ", Char " + (col + 1);
 
             uxProgressBar.Value = uxTextEditor.Text.Length; // Set the progressbar
+
+            //double currentPercent = (uxProgressBar.Value / uxProgressBar.Maximum) *100;
+            //uxPercentage.Text = currentPercent.ToString();
         }
     }
 }

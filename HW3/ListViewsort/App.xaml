@@ -1,7 +1,7 @@
-﻿<Application x:Class="HelloWorldMicah.App"
+﻿<Application x:Class="ListViewsort.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:HelloWorldMicah"
+             xmlns:local="clr-namespace:ListViewsort"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
          
