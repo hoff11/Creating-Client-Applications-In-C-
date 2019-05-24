@@ -1,0 +1,39 @@
+﻿@model BirthdayCardGenerator.Models.CardAttributes
+
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <style>
+        .btn a {
+            color: white;
+            text-decoration: none;
+        }
+
+        body {
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
+<body>
+    <div class="text-center">
+        <h1>Thank you, @Model.From</h1>
+        @if (string.IsNullOrEmpty(Model.Message))
+        {
+            @:Why didn't you submit anything?
+}
+        else
+        {
+            <p>Thanks for submitting!</p>
+            <p>From:@Model.From </p>
+            <p>To: @Model.To</p>
+            <p>Message: @Model.Message</p>
+        }
+    </div>
+</body>
+</html>

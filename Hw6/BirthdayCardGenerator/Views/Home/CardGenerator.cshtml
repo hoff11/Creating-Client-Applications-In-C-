@@ -1,0 +1,49 @@
+﻿@model BirthdayCardGenerator.Models.CardAttributes
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <link rel="stylesheet" type="text/css" href="~/Content/styles.css" />
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <style>
+        .btn a {
+            color: white;
+            text-decoration: none;
+        }
+
+        body {
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
+<body>
+    <div class="text-center">
+        <h2>Birthday Card Generator</h2>
+        <h3>Send a Birthday Card</h3>
+        @using (Html.BeginForm())
+        {
+            @Html.ValidationSummary()
+            <p>From: @Html.TextBoxFor(t => t.From)</p>
+            <p>To: @Html.TextBoxFor(t => t.To)</p>
+            <p>Message: @Html.TextBoxFor(t => t.Message)</p>
+
+
+            @*<p>
+                    Will Attend: @Html.DropDownListFor(t => t.WillAttend, new[]
+                  {
+                    new SelectListItem { Text="Yes, I'll be there", Value=bool.TrueString},
+                    new SelectListItem{Text="No, I can't come", Value=bool.FalseString},
+                  }, "Choose an option")
+                </p>*@
+            <input type="submit" value="Send Card" class="btn btn-success" />
+        }
+    </div>
+</body>
+</html>
